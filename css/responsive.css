@@ -1,4 +1,4 @@
-@media (max-width: 1440px) {
+@media (max-width: 1366px) {
     .formify_box_register {
       padding: 40px;
     }
@@ -83,7 +83,7 @@
       padding: 50px 0px;
     }
     .formify_signup_fullwidth_two .form_tab_two .formify_box {
-      max-width: 600px;
+      max-width: 100%;
     }
     .top_logo {
       position: relative;
@@ -111,7 +111,12 @@
       padding-left: 15px;
       padding-right: 15px;
     }
-    
+    .formify_right_fullwidth {
+      flex: 0 0 auto;
+      width: 67.25%;
+      flex-wrap: wrap;
+      overflow-y: auto;
+  }
     .formify_right_fullwidth .formify_content_body {
       padding-top: 20px;
       padding-bottom: 20px;

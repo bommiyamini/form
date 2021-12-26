@@ -38,7 +38,7 @@ button:focus {
 
 @media (min-width: 768px) {
   .frm-vh-md-100 {
-    height: 100vh;
+    height: auto;
   }
 }
 
@@ -371,7 +371,9 @@ a {
 .formify_signup_fullwidth_two .formify_right_fullwidth .formify_box .condition_text {
   margin-top: 28px;
 }
-
+.form_tab {
+  width: 100%}
+  
 .red_btn {
   width: auto;
   text-transform: capitalize;
