@@ -38,7 +38,7 @@ button:focus {
 
 @media (min-width: 768px) {
   .frm-vh-md-100 {
-    height: auto;
+    height: 100vh;
   }
 }
 
@@ -204,6 +204,9 @@ button:focus {
   color: #fff;
   transform: translateY(-3px);
   
+}
+.padle{
+  padding-left: 30px;
 }
 /*============== formify_pricing_tab css ============*/
 
@@ -545,9 +548,7 @@ a {
 .prev_tab:hover {
   color: bluex;
 }
-.prev_tab:hover i {
-  margin-right: 8px;
-}
+
 
 
 
